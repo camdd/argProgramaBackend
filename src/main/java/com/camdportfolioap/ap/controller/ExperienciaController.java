@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "https://a-p-camd.web.app/", maxAge = 3600)
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/experiencia")
 public class ExperienciaController {
